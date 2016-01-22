@@ -1,0 +1,56 @@
+// COLOUR VARIABLES
+$bg-blue: #01ADD1;
+// SET UP STYLES
+.white-border {
+	background: white;
+	margin: 5% 0;
+	position: relative;
+}
+#text {
+	padding: 5% 0;
+}
+body {
+	padding: 0;
+	margin: 0;
+}
+// FONT STYLES
+body {
+	font-family: 'Lato', 'Tahoma', sans-serif;
+}
+
+
+// IMAGE STYLES
+img.logo {
+	width: 100%;
+	padding: 5% 0;
+}
+img.noogie {
+	position: relative;
+	left: 0;
+	width: 100%;
+	margin-bottom: -3px;
+}
+
+// MAIN STYLES
+.grid__item, .content-wrap {
+	vertical-align: middle;
+
+}
+#container {
+	height: 100vh;
+	.one-half {
+		width: 45%;
+
+	}
+	.content-wrap {
+		margin-right: 6%;
+	}
+}
+input#lines {
+	width: 5%;
+
+}
+.inner,
+input#lines {
+	text-align: center;
+}

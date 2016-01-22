@@ -1,0 +1,41 @@
+<!-- // prompt user to input how many words they want
+// generate a paragraph based off of user input
+// prevent text from repeating -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Rick and Morty Ipsum Generator</title>
+	<link rel="stylesheet" href="css/csswizardry-grids.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js"></script>
+</head>
+<body>
+    <div id="container" class="blue-border">
+    	<div class=" grid grid--center white-border">
+	    	<div class="grid__item one-half img-wrap">
+	    		<img class="noogie" src="assets/r-m-standing.png" alt="rick giving mroty a noogie">
+	    	</div>
+	    	<div class="grid__item one-half content-wrap">
+	    		<img class="logo" src="assets/r-m-logo.png" alt="Rick and Morty Ipsum">
+	    		<div class="inner">
+					  <label class="lines" for="lines">How many lines of text?</label>
+					  <input id="lines" type="text" placeholder="10"></input>
+				  <button id="generate">Generate Ipsum</button>
+				  <div id="text"></div>
+				 </div>
+			 </div>
+		</div><!-- end of white-border -->
+    </div><!-- end of blue-border -->
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.3/handlebars.js"></script>
+  <script id="ipsum-template" type="text/x-handlebars-template">
+    <div class="template">
+        {{ipsum}}
+    </div>
+  </script>
+	
+
+</body>
+</html>

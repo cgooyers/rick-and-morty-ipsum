@@ -1,0 +1,1 @@
+Just wanted to clarify that I did include a function for removing the used items, however, I thought it made sense for an ipsum generator to reuse text so I commented out the function for removing items but it is there!! :)
