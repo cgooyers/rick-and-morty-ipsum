@@ -9,13 +9,13 @@
   padding: 5% 0; }
 
 body {
-  background: #01ADD1;
   padding: 0;
   margin: 0; }
 
 body {
   font-family: 'Lato', 'Tahoma', sans-serif;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+  background: #01ADD1; }
 
 footer {
   font-size: 70%;
@@ -34,12 +34,11 @@ img.noogie {
 .grid__item, .content-wrap {
   vertical-align: middle; }
 
-#container {
-  background: #01ADD1; }
-  #container .one-half {
-    width: 45%; }
-  #container .content-wrap {
-    margin-right: 6%; }
+#container .one-half {
+  width: 45%; }
+
+#container .content-wrap {
+  margin-right: 6%; }
 
 label.lines,
 button {
@@ -47,7 +46,8 @@ button {
   box-shadow: 5px 5px 3px #adadad;
   border: 2px solid #017b93;
   border-bottom: 5px solid #017b93;
-  border-radius: 3px; }
+  border-radius: 3px;
+  letter-spacing: 1px; }
 
 label.lines {
   padding: 1.43%;
