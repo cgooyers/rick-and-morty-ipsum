@@ -50,7 +50,7 @@ button {
   letter-spacing: 1px; }
 
 label.lines {
-  padding: 1.43%;
+  padding: 2%;
   margin-right: 2%; }
 
 input#lines {
@@ -64,7 +64,8 @@ input#lines {
 button#generate {
   padding: 2%;
   vertical-align: middle;
-  font-size: 100%; }
+  font-size: 100%;
+  margin: 7% 0; }
 
 footer {
   padding-top: 1%; }
