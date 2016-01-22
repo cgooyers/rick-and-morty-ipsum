@@ -3,14 +3,16 @@ $bg-blue: #01ADD1;
 $border: #017b93;
 // SET UP STYLES
 .white-border {
-	background: white;
+	background: url('../assets/geometry2.png');
 	margin: 5%;
 	position: relative;
 	border-radius: 3px;
 	padding: 2% 0;
 }
 #text {
-	padding: 5% 0;
+	padding: 5%;
+	background: white;
+    border-radius: 5px;
 }
 body {
 	
@@ -23,11 +25,6 @@ body {
 	letter-spacing: 1px;
 	background: $bg-blue;
 }
-footer {
-	font-size: 70%;
-	text-align: center;
-}
-
 // IMAGE STYLES
 img.logo {
 	width: 100%;
@@ -39,7 +36,6 @@ img.noogie {
 	width: 100%;
 	margin-bottom: -3px;
 }
-
 // MAIN STYLES
 .grid__item, .content-wrap {
 	vertical-align: middle;
@@ -58,7 +54,7 @@ img.noogie {
 label.lines,
 button {
 	background: $bg-blue;
-	box-shadow: 5px 5px 3px #adadad;
+	box-shadow: 3px 3px 2px #d6d6d6;
 	border: 2px solid $border;
 	border-bottom: 5px solid $border;
 	border-radius: 3px;
@@ -70,7 +66,6 @@ label.lines {
 }
 input#lines {
 	width: 5%;
-	margin-left: 10px;
 }
 .inner,
 input#lines {
@@ -80,15 +75,20 @@ button#generate {
 	padding: 2%;
 	vertical-align: middle;
 	font-size: 100%;
-	margin: 7% 0;
+	margin: -50px 0;
 }
 // END OF MAIN STYLES
 
 // FOOTER STYLES
 footer {
 	padding-top: 1%;
+	font-size: 70%;
+	text-align: center;
 	a {
 		text-decoration: none;
 		color: black;
+	}
+	.fa {
+		font-size: 110%;
 	}
 }

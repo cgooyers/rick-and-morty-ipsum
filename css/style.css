@@ -1,12 +1,14 @@
 .white-border {
-  background: white;
+  background: url("../assets/geometry2.png");
   margin: 5%;
   position: relative;
   border-radius: 3px;
   padding: 2% 0; }
 
 #text {
-  padding: 5% 0; }
+  padding: 5%;
+  background: white;
+  border-radius: 5px; }
 
 body {
   padding: 0;
@@ -16,10 +18,6 @@ body {
   font-family: 'Lato', 'Tahoma', sans-serif;
   letter-spacing: 1px;
   background: #01ADD1; }
-
-footer {
-  font-size: 70%;
-  text-align: center; }
 
 img.logo {
   width: 100%;
@@ -43,7 +41,7 @@ img.noogie {
 label.lines,
 button {
   background: #01ADD1;
-  box-shadow: 5px 5px 3px #adadad;
+  box-shadow: 3px 3px 2px #d6d6d6;
   border: 2px solid #017b93;
   border-bottom: 5px solid #017b93;
   border-radius: 3px;
@@ -54,8 +52,7 @@ label.lines {
   margin-right: 2%; }
 
 input#lines {
-  width: 5%;
-  margin-left: 10px; }
+  width: 5%; }
 
 .inner,
 input#lines {
@@ -65,10 +62,14 @@ button#generate {
   padding: 2%;
   vertical-align: middle;
   font-size: 100%;
-  margin: 7% 0; }
+  margin: -50px 0; }
 
 footer {
-  padding-top: 1%; }
+  padding-top: 1%;
+  font-size: 70%;
+  text-align: center; }
   footer a {
     text-decoration: none;
     color: black; }
+  footer .fa {
+    font-size: 110%; }

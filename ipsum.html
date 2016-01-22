@@ -6,10 +6,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Rick and Morty Ipsum Generator</title>
+	<link rel="icon" type="img/ico" href="assets/small-fav.png">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/csswizardry-grids.css">
 	<link rel="stylesheet" href="css/style.css">
 	<script src="js/script.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <div id="container" class="blue-border">
@@ -20,8 +22,9 @@
 	    	<div class="grid__item one-half portable--one-half content-wrap">
 	    		<img class="logo" src="assets/r-m-logo.png" alt="Rick and Morty Ipsum">
 	    		<div class="inner">
-					  <label class="lines" for="lines">Lines of text<input id="lines" type="text" placeholder="10"></input></label>
-					  
+					  <label class="lines" for="lines">Lines of text
+					  	<input id="lines" type="text" placeholder="5"></input>
+					  </label>
 				  <button id="generate">Generate Ipsum</button>
 				  <div id="text"></div>
 				 </div>
