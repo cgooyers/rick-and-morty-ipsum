@@ -6,6 +6,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Rick and Morty Ipsum Generator</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/csswizardry-grids.css">
 	<link rel="stylesheet" href="css/style.css">
 	<script src="js/script.js"></script>
@@ -14,20 +15,21 @@
     <div id="container" class="blue-border">
     	<div class=" grid grid--center white-border">
 	    	<div class="grid__item one-half img-wrap">
-	    		<img class="noogie" src="assets/r-m-standing.png" alt="rick giving mroty a noogie">
+	    		<img class="noogie" src="assets/r-m-kneel.png" alt="rick giving mroty a noogie">
 	    	</div>
 	    	<div class="grid__item one-half content-wrap">
 	    		<img class="logo" src="assets/r-m-logo.png" alt="Rick and Morty Ipsum">
 	    		<div class="inner">
-					  <label class="lines" for="lines">How many lines of text?</label>
-					  <input id="lines" type="text" placeholder="10"></input>
+					  <label class="lines" for="lines">Lines of text<input id="lines" type="text" placeholder="10"></input></label>
+					  
 				  <button id="generate">Generate Ipsum</button>
 				  <div id="text"></div>
 				 </div>
 			 </div>
 		</div><!-- end of white-border -->
     </div><!-- end of blue-border -->
-
+	
+	<footer>Made with <i class="fa fa-diamond"></i> by <a href="http://christinacodes.com/">Christina G. 2016</a></footer>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.3/handlebars.js"></script>
   <script id="ipsum-template" type="text/x-handlebars-template">

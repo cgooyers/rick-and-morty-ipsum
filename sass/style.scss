@@ -1,23 +1,31 @@
 // COLOUR VARIABLES
 $bg-blue: #01ADD1;
+$border: #017b93;
 // SET UP STYLES
 .white-border {
 	background: white;
-	margin: 5% 0;
+	margin: 5%;
 	position: relative;
+	border-radius: 3px;
+	padding: 2% 0;
 }
 #text {
 	padding: 5% 0;
 }
 body {
+	background: $bg-blue;
 	padding: 0;
 	margin: 0;
 }
 // FONT STYLES
 body {
 	font-family: 'Lato', 'Tahoma', sans-serif;
+	letter-spacing: 1px;
 }
-
+footer {
+	font-size: 70%;
+	text-align: center;
+}
 
 // IMAGE STYLES
 img.logo {
@@ -37,7 +45,7 @@ img.noogie {
 
 }
 #container {
-	height: 100vh;
+	background: $bg-blue;
 	.one-half {
 		width: 45%;
 
@@ -46,11 +54,39 @@ img.noogie {
 		margin-right: 6%;
 	}
 }
+label.lines,
+button {
+	background: $bg-blue;
+	box-shadow: 5px 5px 3px #adadad;
+	border: 2px solid $border;
+	border-bottom: 5px solid $border;
+	border-radius: 3px;
+}
+label.lines {
+	padding: 1.43%;
+	margin-right: 2%;
+}
 input#lines {
 	width: 5%;
-
+	margin-left: 10px;
 }
 .inner,
 input#lines {
 	text-align: center;
+}
+button#generate {
+	padding: 2%;
+	vertical-align: middle;
+	font-size: 100%;
+
+}
+// END OF MAIN STYLES
+
+// FOOTER STYLES
+footer {
+	padding-top: 1%;
+	a {
+		text-decoration: none;
+		color: black;
+	}
 }
