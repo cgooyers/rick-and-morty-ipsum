@@ -14,28 +14,26 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <div class="site-wrapper">
-    	<div class="grid grid--center">
-    		<div class="grid__item one-whole desk--one-third">
-    			<div class="white-wrap">
-    			<img class="left-pic" src="assets/r-m-kneel.png" alt="">
+    <div id="container" class="blue-border">
+    	<div class=" grid grid--center white-border">
+	    	<div id="photo" class="grid__item one-half img-wrap">
+	    		<img class="noogie" src="assets/r-m-kneel.png" alt="rick giving mroty a noogie">
+	    	</div><!-- end of img-wrap -->
 
-    				<div class="grid grid--middle">
-    					<div class="grid__item two-thirds desk--two-thirds portable--one-half">
-    						<div class="button">
-    							<span class="lines-of-text">Lines of text?</span>
-    							<input type="number" placeholder="5" class="number-of-lines">
-    						</div>
-    					</div>
-    					<div class="grid__item two-thirds desk--two-thirds portable--one-half">
-    						<button id="generate">Generate Text</button>
-    					</div>
-    				</div>
-    			</div>
-    		</div>
-    	</div><!-- END OF GRID-CENTER -->
-    </div>
+	    	<div class="grid__item one-half portable--one-whole content-wrap">
+	    		<img class="logo" src="assets/r-m-logo.png" alt="Rick and Morty Ipsum">
+	    		<div class="inner">
+					  <label class="lines" for="lines">Lines of text
+					  	<input id="lines" type="text" placeholder="5"></input>
+					  </label>
+				  <button id="generate">Generate Ipsum</button>
+				  <div id="text"></div>
+				 </div>
+			</div><!-- end of content-wrap -->
+		</div><!-- end of white-border -->
+    </div><!-- end of blue-border -->
 	
+	<footer>Made with <i class="fa fa-diamond"></i> by <a href="http://christinacodes.com/">Christina G. 2016</a></footer>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.3/handlebars.js"></script>
 

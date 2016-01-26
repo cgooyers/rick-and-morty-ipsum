@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div class="site-wrap">
+	  <div class="grid grid--center">
+		  <div class="grid__item one-half portable--two-thirds palm--one-whole">
+		    <div class="white-wrapper">
+		      
+		      <div class="grid grid--middle">
+		        <div id="pic-wrap" class="grid__item one-whole portable--pne-whole">
+		          <img src="http://www.nicenicejpg.com/400/50" alt="" class="title" />
+		          <span class="description">
+		            Get schwifty with this hilarious ipsum generator of all your favourite Rick and Morty quotes
+		          </span>
+		        </div>
+		        <div class="grid__item one-half portable--one-whole">
+		         	<div class="faux-button">
+			            <span class="lines-of-squanch">
+			              Lines of SQUAAANCH?
+			            </span>
+		            	<input id="lines" type="text" class="number-of-squanch" placeholder="5" />
+          			</div>
+		        </div>
+		        <div class="grid__item one-half portable--one-whole">
+		            <button id="generate" href="" class="button">Get SQUAANCH
+		              </button>
+		        </div>    
+		        <div class="grid__item one-whole portable--one-whole">
+		           <div id="text"></div>
+		        </div>
+		      </div><!-- END OF GRID-MIDDLE -->
+		    </div><!-- END OF WHITE-WRAPPER -->
+		  </div><!-- END OF GRID_ITEM -->
+		</div><!-- END OF GRID / GRID-CENTER -->
+	</div><!-- END OF SITE-WRAP -->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.3/handlebars.js"></script>
+
+		<script id="ipsum-template" type="text/x-handlebars-template">
+			<div class="template">
+			{{ipsum}}
+			</div>
+	</script><!-- end of Handlebars template  -->
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Rick and Morty Ipsum</title>
+	<link rel="icon" type="img/ico" href="assets/small-fav.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/styleWorking.css">
+	<link rel="stylesheet" href="css/csswizardry-grids.css">
+	<script src="js/script.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	
+	<div class="site-wrapper">
+		<div class="grid grid--center">
+			<div class="grid__item one-half portable--two-thirds palm--one-whole">
+				<div class="white-wrapper">
+					
+					<div class="grid grid--middle">
+						
+						<div class="grid__item one-half portable--one-whole">
+							<label for="how many lines of text do you want?">
+								<input type="text" placeholder="5">
+							</label>
+						</div>
+						<div class="grid__item one-half portable--one-whole">
+							<a href="#" class="button">a button</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.3/handlebars.js"></script>
+
+	<script id="ipsum-template" type="text/x-handlebars-template">
+		<div class="template">
+		{{ipsum}}
+		</div>
+	</script><!-- end of Handlebars template  -->
+</body>
+</html>

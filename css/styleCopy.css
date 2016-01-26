@@ -1,0 +1,122 @@
+.grid {
+  font-size: 0; }
+
+.grid__item {
+  font-size: 14px; }
+
+.white-border {
+  background: url("../assets/geometry2.png");
+  margin: 5%;
+  position: relative;
+  border-radius: 3px;
+  padding: 2% 0; }
+
+#text {
+  padding: 5%;
+  border-radius: 5px; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: 'Lato', 'Tahoma', sans-serif;
+  letter-spacing: 1px;
+  background: #01ADD1; }
+
+img.logo {
+  width: 100%;
+  padding: 5% 0; }
+
+img.noogie {
+  position: relative;
+  left: 0;
+  width: 100%;
+  margin-bottom: -3px; }
+
+.grid__item, .content-wrap {
+  vertical-align: middle; }
+
+#container .one-half {
+  width: 45%; }
+
+#container .content-wrap {
+  margin-right: 6%; }
+
+label.lines,
+button {
+  background: #01ADD1;
+  box-shadow: 3px 3px 2px #d6d6d6;
+  border: 2px solid #017b93;
+  border-bottom: 5px solid #017b93;
+  border-radius: 3px;
+  letter-spacing: 1px; }
+
+label.lines {
+  padding: 2%;
+  margin-right: 2%; }
+
+input#lines {
+  width: 5%; }
+
+.inner,
+input#lines {
+  text-align: center; }
+
+button#generate {
+  padding: 2%;
+  vertical-align: middle;
+  font-size: 100%;
+  margin: -50px 0; }
+
+footer {
+  padding-top: 1%;
+  font-size: 70%;
+  text-align: center; }
+  footer a {
+    text-decoration: none;
+    color: black; }
+  footer .fa {
+    font-size: 110%; }
+
+@media screen and (min-width: 860px) {
+  .menu {
+    width: 100%;
+    padding: 10px 18px;
+    border-radius: 3px; } }
+
+.menu ul {
+  display: inline-block; }
+
+.menu li {
+  margin: 0px 50px 0px 0px;
+  float: left;
+  list-style: none;
+  font-size: 14px; }
+
+.menu li:last-child {
+  margin-right: 0px; }
+
+.menu a {
+  text-transform: uppercase;
+  transition: color linear 0.15s;
+  color: white;
+  font-weight: normal; }
+  .menu a i {
+    color: white; }
+
+.menu a:hover, .menu .current-item a {
+  text-decoration: none;
+  color: #66a992; }
+
+/*----- Responsive -----*/
+@media screen and (max-width: 860px) {
+  #button-wrap {
+    width: 302px; }
+  .white-border #photo {
+    display: none; }
+  button#generate {
+    margin: 10% 0; }
+  button#generate,
+  label {
+    margin: 0 auto; } }
