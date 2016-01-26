@@ -32,6 +32,9 @@ span.description {
 #text {
   padding: 2% 0 50% 0; }
 
+.template {
+  padding: 0 0 5% 0; }
+
 /* BUTTON STYLES */
 .faux-button,
 #generate {
@@ -39,7 +42,6 @@ span.description {
   box-shadow: 3px 3px 2px #d6d6d6;
   border: 2px solid #017b93;
   border-bottom: 5px solid #017b93;
-  border-radius: 3px;
   display: block;
   width: 100%;
   margin: 10% 0;
@@ -47,11 +49,18 @@ span.description {
   text-align: center;
   font-size: 14px; }
 
+.faux-button,
+#generate,
+input#lines {
+  border-radius: 3px; }
+
 input#lines {
   width: 10%;
   padding: 2%;
+  margin: 0 2%;
   color: black;
-  text-align: center; }
+  text-align: center;
+  border: none; }
 
 #generate {
   text-decoration: none;
@@ -87,3 +96,8 @@ footer {
     color: black; }
   footer .fa {
     font-size: 110%; }
+
+@media screen and (max-width: 860px) {
+  .faux-button,
+  #generate {
+    margin: 3% 0; } }

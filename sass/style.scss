@@ -12,7 +12,7 @@ $border: #017b93;
 }
 
 .grid__item {
-  font-size: 14px;
+  	font-size: 14px;
 }
 
 html, 
@@ -26,10 +26,10 @@ body {
 }
 
 .white-wrapper {
-  background:url('../assets/geometry2.png');
-  padding: 5%;
-  border-radius: 10px;
-  position: relative;
+	background:url('../assets/geometry2.png');
+	padding: 5%;
+	border-radius: 10px;
+	position: relative;
 }
 
 .site-wrap {
@@ -42,7 +42,11 @@ span.description {
 }
 
 #text {
-  padding: 2% 0 50% 0;
+  	padding: 2% 0 50% 0;
+}
+
+.template {
+	padding: 0 0 5% 0;
 }
 
 /* BUTTON STYLES */
@@ -53,7 +57,6 @@ span.description {
 	box-shadow: 3px 3px 2px #d6d6d6;
 	border: 2px solid $border;
 	border-bottom: 5px solid $border;
-	border-radius: 3px;
 	display: block;
 	width: 100%;
 	margin: 10% 0;
@@ -62,11 +65,19 @@ span.description {
 	font-size: 14px;
 }
 
+.faux-button,
+#generate,
+input#lines {
+	border-radius: 3px;
+}
+
 input#lines {
   width: 10%;
   padding: 2%;
+  margin: 0 2%;
   color: black;
   text-align: center;
+  border: none; 
 }
 
 #generate {
@@ -117,3 +128,17 @@ a {
 }
 
 // MEDIA QUERIES
+
+@media screen and (min-width: 860px) {
+
+}
+
+@media screen and (max-width: 860px) {
+
+	.faux-button,
+	#generate {
+		margin: 3% 0;
+	}
+
+ 
+}
