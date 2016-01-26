@@ -5,16 +5,16 @@
   font-size: 0; }
 
 .grid__item {
-  font-size: 14px; }
+  font-size: 15px; }
 
 html,
 body {
   padding: 0;
   margin: 0;
   background: #01ADD1;
-  font-family: 'Lato', 'Helvetica', sans-serif;
-  line-height: 20px;
-  letter-spacing: 0.5px; }
+  font-family: 'Archivo Narrow', 'Lato', sans-serif;
+  line-height: 24px;
+  letter-spacing: 0.7px; }
 
 .white-wrapper {
   background: url("../assets/geometry2.png");
@@ -26,8 +26,11 @@ body {
   margin: 2% 0; }
 
 span.description {
-  font-size: 85%;
-  padding-bottom: 5%; }
+  padding: 1% 0 5% 0; }
+
+span.description,
+footer {
+  font-family: 'Archivo Narrow', sans-serif; }
 
 #text {
   padding: 2% 0 50% 0; }
@@ -44,10 +47,11 @@ span.description {
   border-bottom: 5px solid #017b93;
   display: block;
   width: 100%;
-  margin: 10% 0;
+  margin: 12% 0 5% 0;
   padding: 3%;
   text-align: center;
-  font-size: 14px; }
+  font-size: 14px;
+  font-family: 'Archivo Black', sans-serif; }
 
 .faux-button,
 #generate,
@@ -60,7 +64,8 @@ input#lines {
   margin: 0 2%;
   color: black;
   text-align: center;
-  border: none; }
+  border: none;
+  font-family: 'Archivo Narrow' sans-serif; }
 
 #generate {
   text-decoration: none;
@@ -89,7 +94,7 @@ img.bg-pic {
 
 footer {
   padding-top: 1%;
-  font-size: 70%;
+  font-size: 75%;
   text-align: center; }
   footer a {
     text-decoration: none;
