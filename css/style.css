@@ -5,7 +5,7 @@
   font-size: 0; }
 
 .grid__item {
-  font-size: 15px; }
+  font-size: 18px; }
 
 html,
 body {
@@ -26,14 +26,16 @@ body {
   margin: 2% 0; }
 
 span.description {
-  padding: 1% 0 5% 0; }
+  padding: 1% 0 5% 0;
+  font-size: 90%; }
 
 span.description,
 footer {
   font-family: 'Archivo Narrow', sans-serif; }
 
 #text {
-  padding: 2% 0 50% 0; }
+  padding: 2% 0 50% 0;
+  font-size: 110%; }
 
 .template {
   padding: 0 0 5% 0; }

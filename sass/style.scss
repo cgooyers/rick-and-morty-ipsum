@@ -12,7 +12,7 @@ $border: #017b93;
 }
 
 .grid__item {
-  	font-size: 15px;
+  	font-size: 18px;
 }
 
 html, 
@@ -38,6 +38,7 @@ body {
 
 span.description {
   padding: 1% 0 5% 0;
+  font-size: 90%;
 }
 
 span.description,
@@ -47,10 +48,12 @@ footer {
 
 #text {
   	padding: 2% 0 50% 0;
+  	font-size: 110%;
 }
 
 .template {
 	padding: 0 0 5% 0;
+	
 }
 
 /* BUTTON STYLES */
