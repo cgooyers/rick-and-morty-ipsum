@@ -1,6 +1,12 @@
 * {
   box-sizing: border-box; }
 
+.grid {
+  font-size: 0; }
+
+.grid__item {
+  font-size: 14px; }
+
 html,
 body {
   padding: 0;
@@ -10,26 +16,21 @@ body {
   line-height: 20px;
   letter-spacing: 0.5px; }
 
-.grid {
-  font-size: 0; }
-
-.grid__item {
-  font-size: 14px; }
-
 .white-wrapper {
-  background: #e5e5e5;
+  background: url("../assets/geometry2.png");
   padding: 5%;
-  border-radius: 10px; }
+  border-radius: 10px;
+  position: relative; }
 
 .site-wrap {
-  margin: 10% 0; }
+  margin: 2% 0; }
 
 span.description {
   font-size: 85%;
   padding-bottom: 5%; }
 
 #text {
-  padding: 2%; }
+  padding: 2% 0 50% 0; }
 
 /* BUTTON STYLES */
 .faux-button,
@@ -59,13 +60,7 @@ input#lines {
 /* IMAGE STYLES */
 img.title {
   display: block;
-  padding: 5% 0 2% 0;
-  width: 100%; }
-
-img.bg-img {
-  position: absolute;
-  right: 3%;
-  bottom: -25%; }
+  padding: 5% 0 2% 0; }
 
 #pic-wrap {
   text-align: center; }
@@ -73,3 +68,22 @@ img.bg-img {
 img.title,
 #pic-wrap {
   margin: 0 auto; }
+
+img.title {
+  width: 100%; }
+
+img.bg-pic {
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  width: 60%; }
+
+footer {
+  padding-top: 1%;
+  font-size: 70%;
+  text-align: center; }
+  footer a {
+    text-decoration: none;
+    color: black; }
+  footer .fa {
+    font-size: 110%; }

@@ -7,6 +7,14 @@ $border: #017b93;
 	box-sizing: border-box;
 }
 
+.grid {
+  font-size: 0;
+}
+
+.grid__item {
+  font-size: 14px;
+}
+
 html, 
 body {
 	padding: 0; 
@@ -17,22 +25,15 @@ body {
 	letter-spacing: 0.5px;
 }
 
-.grid {
-  font-size: 0;
-}
-
-.grid__item {
-  font-size: 14px;
-}
-
 .white-wrapper {
-  background: #e5e5e5;
+  background:url('../assets/geometry2.png');
   padding: 5%;
   border-radius: 10px;
+  position: relative;
 }
 
 .site-wrap {
-	margin: 10% 0;
+	margin: 2% 0;
 }
 
 span.description {
@@ -41,7 +42,7 @@ span.description {
 }
 
 #text {
-  padding: 2%;
+  padding: 2% 0 50% 0;
 }
 
 /* BUTTON STYLES */
@@ -78,13 +79,6 @@ input#lines {
 img.title {
   display: block;
   padding: 5% 0 2% 0;
-  width: 100%;
-}
-
-img.bg-img {
-  position: absolute;
-  right: 3%;
-  bottom: -25%;
 }
 
 #pic-wrap {
@@ -94,6 +88,32 @@ img.bg-img {
 img.title,
 #pic-wrap  {
   margin: 0 auto;
+}
+
+img.title{
+	width: 100%;
+}
+
+img.bg-pic {
+	position: absolute;
+    bottom: 0;
+    left: 25%;
+    width: 60%;
+}
+
+// FOOTER STYLES
+
+footer {
+padding-top: 1%;
+font-size: 70%;
+text-align: center;
+a {
+	text-decoration: none;
+	color: black;
+}
+.fa {
+	font-size: 110%;
+}
 }
 
 // MEDIA QUERIES
